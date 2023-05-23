@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/login' element={<LoginPage/>} />
         <Route path='/sign-up' element={<SignUpPage/>} />
+        <Route path="*" element={<div> Not Found or You do not have permission.</div>}/>
       </Routes>
     </BrowserRouter>
   )

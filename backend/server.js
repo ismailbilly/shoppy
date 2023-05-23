@@ -16,7 +16,7 @@ if(process.env.NODE_ENV !== 'PRODUCTION'){
 
 //create server
 const server = app.listen(process.env.PORT, ()=>{
-    console.log(`server is runnig on https://localhost/${process.env.PORT}`);
+    console.log(`server is runnig on http://localhost:${process.env.PORT}`);
 })
 
 //unhandled promise rejection
